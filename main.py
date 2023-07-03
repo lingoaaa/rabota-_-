@@ -1,7 +1,6 @@
-pol = input('Введите слово:')
-polindrom=True
-if pol[::-1]==pol:
-    print(polindrom)
-else:
-    polindrom=False
-    print(polindrom)
+def polin(pol):
+    if pol[::-1]==pol:
+        return True
+    else:
+        return False
+print(polin(input('Введите слово:')))
